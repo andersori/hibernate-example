@@ -32,7 +32,6 @@ public class HibernateConfig{
             settings.put(Environment.DIALECT, DatabaseConfig.getDialect());
             settings.put(Environment.SHOW_SQL, "true");
             settings.put(Environment.HBM2DDL_AUTO, "create-drop");
-            settings.put(Environment.CLASSLOADERS, "com.dvn.entity.Account");
 
             // Apply settings
             registryBuilder.applySettings(settings);
